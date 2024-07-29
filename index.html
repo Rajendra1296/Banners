@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Banner Slideshow</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <a href="https://www.amazon.in/Apple-iPhone-Pro-Max-256/dp/B0CHWV2WYK">
+          <img
+            src="https://mir-s3-cdn-cf.behance.net/project_modules/max_3840_webp/34b5bf180145769.6505ae7623131.jpg"
+            style="width: 100%"
+          />
+        </a>
+      </div>
+      <div class="mySlides fade">
+        <a
+          href="https://www.amazon.in/Bosch-Lifestyle-MCM3501M-800-Watt-Processor/dp/B015DR863C"
+        >
+          <img
+            src="https://ii1.pepperfry.com/assets/w23-mixers-processors-banner-buying-guide.jpg"
+            style="width: 100%"
+          />
+        </a>
+      </div>
+      <div class="mySlides fade">
+        <a href="https://www.amazon.in/608-Full-Metal-Toy-Gun/dp/B09NHMYC4V">
+          <img
+            src="https://as2.ftcdn.net/v2/jpg/03/02/39/89/1000_F_302398979_XqqGoRl7nKQyue6flRBkudckUsHYR6Mo.jpg"
+            style="width: 100%"
+          />
+        </a>
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+
+    <script src="scripts.js"></script>
+    <div class="dot-container">
+      <div class="dot-container">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+    </div>
+  </body>
+</html>
